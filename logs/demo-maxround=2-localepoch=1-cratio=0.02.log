@@ -1,0 +1,318 @@
+Args(dataset='famnist', input_channel=1, input_size=28, split='map', n_classes=10, n_clients=100, nc_per_client=None, dir_alpha=None, n_max_sam=None, c_ratio=0.02, net='MLPNet', max_round=2, test_round=2, local_epochs=1, local_steps=None, batch_size=32, optimizer='SGD', lr=0.03, momentum=0.9, weight_decay=1e-05, max_grad_norm=100.0, cuda=True, min_samples=1, algo='fedavg', ln_sigma=0.3, none='none', fname='demo-maxround=2-localepoch=1-cratio=0.02.log')
+[ROUNDS]: 2
+[LOSSES]: 2.30003
+[GLO_TACCS]: 0.19395
+[LOCAL_TACCS]: 0.08268 0.56267
+[LOCAL_MF1S]: 0.05659 0.53999
+
+Args(dataset='cifar10', split='map', n_classes=10, n_clients=100, dir_alpha=None, nc_per_client=None, n_max_sam=None, c_ratio=0.02, net='TFCNN', max_round=2, test_round=2, local_epochs=1, local_steps=None, batch_size=64, optimizer='SGD', lr=0.03, momentum=0.9, weight_decay=1e-05, max_grad_norm=100.0, cuda=True, min_samples=1, algo='fedavg', ln_sigma=0.3, none='none', fname='demo-maxround=2-localepoch=1-cratio=0.02.log')
+[ROUNDS]: 2
+[LOSSES]: 2.76119
+[GLO_TACCS]: 0.10928
+[LOCAL_TACCS]: 0.09091 0.13559
+[LOCAL_MF1S]: 0.01923 0.05080
+
+Args(dataset='famnist', input_channel=1, input_size=28, split='map', n_classes=10, n_clients=100, nc_per_client=None, dir_alpha=None, n_max_sam=None, c_ratio=0.02, net='MLPNet', max_round=2, test_round=2, local_epochs=1, local_steps=None, batch_size=32, optimizer='SGD', lr=0.03, momentum=0.9, weight_decay=1e-05, max_grad_norm=100.0, cuda=True, min_samples=1, algo='fedprox', ln_sigma=0.3, reg_way='fedprox', reg_lamb=0.0001, fname='demo-maxround=2-localepoch=1-cratio=0.02.log')
+[ROUNDS]: 2
+[LOSSES]: 2.30160
+[GLO_TACCS]: 0.20176
+[LOCAL_TACCS]: 0.30660 0.34572
+[LOCAL_MF1S]: 0.14020 0.21427
+
+Args(dataset='cifar10', split='map', n_classes=10, n_clients=100, dir_alpha=None, nc_per_client=None, n_max_sam=None, c_ratio=0.02, net='TFCNN', max_round=2, test_round=2, local_epochs=1, local_steps=None, batch_size=64, optimizer='SGD', lr=0.03, momentum=0.9, weight_decay=1e-05, max_grad_norm=100.0, cuda=True, min_samples=1, algo='fedprox', ln_sigma=0.3, reg_way='fedprox', reg_lamb=0.0001, fname='demo-maxround=2-localepoch=1-cratio=0.02.log')
+[ROUNDS]: 2
+[LOSSES]: 2.39513
+[GLO_TACCS]: 0.14766
+[LOCAL_TACCS]: 0.02913 0.16241
+[LOCAL_MF1S]: 0.00612 0.08112
+
+Args(dataset='famnist', input_channel=1, input_size=28, split='map', n_classes=10, n_clients=100, nc_per_client=None, dir_alpha=None, n_max_sam=None, c_ratio=0.02, net='MLPNet', max_round=2, test_round=2, local_epochs=1, local_steps=None, batch_size=32, optimizer='SGD', lr=0.03, momentum=0.9, weight_decay=1e-05, max_grad_norm=100.0, cuda=True, min_samples=1, algo='fedmmd', ln_sigma=0.3, reg_way='fedmmd', reg_lamb=0.001, fname='demo-maxround=2-localepoch=1-cratio=0.02.log')
+[ROUNDS]: 2
+[LOSSES]: 2.30042
+[GLO_TACCS]: 0.13164
+[LOCAL_TACCS]: 0.18301 0.28478
+[LOCAL_MF1S]: 0.06264 0.20727
+
+Args(dataset='cifar10', split='map', n_classes=10, n_clients=100, dir_alpha=None, nc_per_client=None, n_max_sam=None, c_ratio=0.02, net='TFCNN', max_round=2, test_round=2, local_epochs=1, local_steps=None, batch_size=64, optimizer='SGD', lr=0.03, momentum=0.9, weight_decay=1e-05, max_grad_norm=100.0, cuda=True, min_samples=1, algo='fedmmd', ln_sigma=0.3, reg_way='fedmmd', reg_lamb=0.001, fname='demo-maxround=2-localepoch=1-cratio=0.02.log')
+[ROUNDS]: 2
+[LOSSES]: 1.50521
+[GLO_TACCS]: 0.11838
+[LOCAL_TACCS]: 0.17553 0.51424
+[LOCAL_MF1S]: 0.11657 0.44275
+
+Args(dataset='famnist', input_channel=1, input_size=28, split='map', n_classes=10, n_clients=100, nc_per_client=None, dir_alpha=None, n_max_sam=None, c_ratio=0.02, net='MLPNet', max_round=2, test_round=2, local_epochs=1, local_steps=None, batch_size=32, optimizer='SGD', lr=0.03, momentum=0.9, weight_decay=1e-05, max_grad_norm=100.0, cuda=True, min_samples=1, algo='scaffold', ln_sigma=0.3, glo_lr=0.5, fname='demo-maxround=2-localepoch=1-cratio=0.02.log')
+[ROUNDS]: 2
+[LOSSES]: 2.30234
+[GLO_TACCS]: 0.08750
+[LOCAL_TACCS]: 0.03649 0.08950
+[LOCAL_MF1S]: 0.03659 0.09245
+
+Args(dataset='cifar10', split='map', n_classes=10, n_clients=100, dir_alpha=None, nc_per_client=None, n_max_sam=None, c_ratio=0.02, net='TFCNN', max_round=2, test_round=2, local_epochs=1, local_steps=None, batch_size=64, optimizer='SGD', lr=0.03, momentum=0.9, weight_decay=1e-05, max_grad_norm=100.0, cuda=True, min_samples=1, algo='scaffold', ln_sigma=0.3, glo_lr=0.5, fname='demo-maxround=2-localepoch=1-cratio=0.02.log')
+[ROUNDS]: 2
+[LOSSES]: 2.06082
+[GLO_TACCS]: 0.11320
+[LOCAL_TACCS]: 0.05249 0.22976
+[LOCAL_MF1S]: 0.02617 0.17654
+
+Args(dataset='famnist', input_channel=1, input_size=28, split='map', n_classes=10, n_clients=100, nc_per_client=None, dir_alpha=None, n_max_sam=None, c_ratio=0.02, net='MLPNet', max_round=2, test_round=2, local_epochs=1, local_steps=None, batch_size=32, optimizer='SGD', lr=0.03, momentum=0.9, weight_decay=1e-05, max_grad_norm=100.0, cuda=True, min_samples=1, algo='feddf', ln_sigma=0.3, df_lr=0.01, df_steps=200, fname='demo-maxround=2-localepoch=1-cratio=0.02.log')
+[ROUNDS]: 2
+[LOSSES]: 2.29946
+[GLO_TACCS]: 0.10004
+[LOCAL_TACCS]: 0.16443 0.51761
+
+Args(dataset='cifar10', split='map', n_classes=10, n_clients=100, dir_alpha=None, nc_per_client=None, n_max_sam=None, c_ratio=0.02, net='TFCNN', max_round=2, test_round=2, local_epochs=1, local_steps=None, batch_size=64, optimizer='SGD', lr=0.03, momentum=0.9, weight_decay=1e-05, max_grad_norm=100.0, cuda=True, min_samples=1, algo='feddf', ln_sigma=0.3, df_lr=0.01, df_steps=200, fname='demo-maxround=2-localepoch=1-cratio=0.02.log')
+[ROUNDS]: 2
+[LOSSES]: 2.18899
+[GLO_TACCS]: 0.13256
+[LOCAL_TACCS]: 0.14452 0.21442
+
+Args(dataset='famnist', input_channel=1, input_size=28, split='map', n_classes=10, n_clients=100, nc_per_client=None, dir_alpha=None, n_max_sam=None, c_ratio=0.02, net='MLPNet', max_round=2, test_round=2, local_epochs=1, local_steps=None, batch_size=32, optimizer='SGD', lr=0.03, momentum=0.9, weight_decay=1e-05, max_grad_norm=100.0, cuda=True, min_samples=1, algo='fedopt', ln_sigma=0.3, glo_optimizer='SGD', glo_lr=1.0, fname='demo-maxround=2-localepoch=1-cratio=0.02.log')
+[ROUNDS]: 2
+[LOSSES]: 2.29815
+[GLO_TACCS]: 0.11504
+[LOCAL_TACCS]: 0.09381 0.61221
+[LOCAL_MF1S]: 0.06136 0.58594
+
+Args(dataset='cifar10', split='map', n_classes=10, n_clients=100, dir_alpha=None, nc_per_client=None, n_max_sam=None, c_ratio=0.02, net='TFCNN', max_round=2, test_round=2, local_epochs=1, local_steps=None, batch_size=64, optimizer='SGD', lr=0.03, momentum=0.9, weight_decay=1e-05, max_grad_norm=100.0, cuda=True, min_samples=1, algo='fedopt', ln_sigma=0.3, glo_optimizer='SGD', glo_lr=1.0, fname='demo-maxround=2-localepoch=1-cratio=0.02.log')
+[ROUNDS]: 2
+[LOSSES]: 1.82907
+[GLO_TACCS]: 0.14479
+[LOCAL_TACCS]: 0.16506 0.29097
+[LOCAL_MF1S]: 0.07689 0.19919
+
+Args(dataset='famnist', input_channel=1, input_size=28, split='map', n_classes=10, n_clients=100, nc_per_client=None, dir_alpha=None, n_max_sam=None, c_ratio=0.02, net='MLPNet', max_round=2, test_round=2, local_epochs=1, local_steps=None, batch_size=32, optimizer='SGD', lr=0.03, momentum=0.9, weight_decay=1e-05, max_grad_norm=100.0, cuda=True, min_samples=1, algo='fednova', ln_sigma=0.3, gmf=0.9, prox_mu=0.0001, fname='demo-maxround=2-localepoch=1-cratio=0.02.log')
+[ROUNDS]: 2
+[LOSSES]: 2.30137
+[GLO_TACCS]: 0.09453
+[LOCAL_TACCS]: 0.01290 0.57007
+[LOCAL_MF1S]: 0.01379 0.54316
+
+Args(dataset='cifar10', split='map', n_classes=10, n_clients=100, dir_alpha=None, nc_per_client=None, n_max_sam=None, c_ratio=0.02, net='TFCNN', max_round=2, test_round=2, local_epochs=1, local_steps=None, batch_size=64, optimizer='SGD', lr=0.03, momentum=0.9, weight_decay=1e-05, max_grad_norm=100.0, cuda=True, min_samples=1, algo='fednova', ln_sigma=0.3, gmf=0.9, prox_mu=0.0001, fname='demo-maxround=2-localepoch=1-cratio=0.02.log')
+[ROUNDS]: 2
+[LOSSES]: 2.28372
+[GLO_TACCS]: 0.13701
+[LOCAL_TACCS]: 0.13112 0.20465
+[LOCAL_MF1S]: 0.05241 0.08353
+
+Args(dataset='famnist', input_channel=1, input_size=28, split='map', n_classes=10, n_clients=100, nc_per_client=None, dir_alpha=None, n_max_sam=None, c_ratio=0.02, net='MLPNet', max_round=2, test_round=2, local_epochs=1, local_steps=None, batch_size=32, optimizer='SGD', lr=0.03, momentum=0.9, weight_decay=1e-05, max_grad_norm=100.0, cuda=True, min_samples=1, algo='fedaws', ln_sigma=0.3, margin=0.9, aws_steps=20, aws_lr=1.0, fname='demo-maxround=2-localepoch=1-cratio=0.02.log')
+[ROUNDS]: 2
+[LOSSES]: 1.71770
+[GLO_TACCS]: 0.10117
+[LOCAL_TACCS]: 0.00862 0.66078
+[LOCAL_MF1S]: 0.00519 0.57475
+
+Args(dataset='cifar10', split='map', n_classes=10, n_clients=100, dir_alpha=None, nc_per_client=None, n_max_sam=None, c_ratio=0.02, net='TFCNN', max_round=2, test_round=2, local_epochs=1, local_steps=None, batch_size=64, optimizer='SGD', lr=0.03, momentum=0.9, weight_decay=1e-05, max_grad_norm=100.0, cuda=True, min_samples=1, algo='fedaws', ln_sigma=0.3, margin=0.9, aws_steps=20, aws_lr=1.0, fname='demo-maxround=2-localepoch=1-cratio=0.02.log')
+[ROUNDS]: 2
+[LOSSES]: 2.12856
+[GLO_TACCS]: 0.16227
+[LOCAL_TACCS]: 0.17316 0.26722
+[LOCAL_MF1S]: 0.07755 0.19763
+
+Args(dataset='famnist', input_channel=1, input_size=28, split='map', n_classes=10, n_clients=100, nc_per_client=None, dir_alpha=None, n_max_sam=None, c_ratio=0.02, net='MLPNet', max_round=2, test_round=2, local_epochs=1, local_steps=None, batch_size=32, optimizer='SGD', lr=0.03, momentum=0.9, weight_decay=1e-05, max_grad_norm=100.0, cuda=True, min_samples=1, algo='moon', ln_sigma=0.3, reg_lamb=0.001, fname='demo-maxround=2-localepoch=1-cratio=0.02.log')
+[ROUNDS]: 2
+[LOSSES]: 2.30138
+[GLO_TACCS]: 0.09893
+[LOCAL_TACCS]: 0.07806 0.63209
+[LOCAL_MF1S]: 0.04172 0.51103
+
+Args(dataset='cifar10', split='map', n_classes=10, n_clients=100, dir_alpha=None, nc_per_client=None, n_max_sam=None, c_ratio=0.02, net='TFCNN', max_round=2, test_round=2, local_epochs=1, local_steps=None, batch_size=64, optimizer='SGD', lr=0.03, momentum=0.9, weight_decay=1e-05, max_grad_norm=100.0, cuda=True, min_samples=1, algo='moon', ln_sigma=0.3, reg_lamb=0.001, fname='demo-maxround=2-localepoch=1-cratio=0.02.log')
+[ROUNDS]: 2
+[LOSSES]: 2.11762
+[GLO_TACCS]: 0.10354
+[LOCAL_TACCS]: 0.20833 0.45610
+[LOCAL_MF1S]: 0.10000 0.26658
+
+Args(dataset='famnist', input_channel=1, input_size=28, split='map', n_classes=10, n_clients=100, nc_per_client=None, dir_alpha=None, n_max_sam=None, c_ratio=0.02, net='MLPNet', max_round=2, test_round=2, local_epochs=1, local_steps=None, batch_size=32, optimizer='SGD', lr=0.03, momentum=0.9, weight_decay=1e-05, max_grad_norm=100.0, cuda=True, min_samples=1, algo='feddyn', ln_sigma=0.3, reg_lamb=0.001, fname='demo-maxround=2-localepoch=1-cratio=0.02.log')
+[ROUNDS]: 2
+[LOSSES]: 2.30164
+[GLO_TACCS]: 0.10869
+[LOCAL_TACCS]: 0.08120 0.54312
+
+Args(dataset='cifar10', split='map', n_classes=10, n_clients=100, dir_alpha=None, nc_per_client=None, n_max_sam=None, c_ratio=0.02, net='TFCNN', max_round=2, test_round=2, local_epochs=1, local_steps=None, batch_size=64, optimizer='SGD', lr=0.03, momentum=0.9, weight_decay=1e-05, max_grad_norm=100.0, cuda=True, min_samples=1, algo='feddyn', ln_sigma=0.3, reg_lamb=0.001, fname='demo-maxround=2-localepoch=1-cratio=0.02.log')
+[ROUNDS]: 2
+[LOSSES]: 2.22906
+[GLO_TACCS]: 0.10033
+[LOCAL_TACCS]: 0.09706 0.25597
+
+Args(dataset='famnist', input_channel=1, input_size=28, split='map', n_classes=10, n_clients=100, nc_per_client=None, dir_alpha=None, n_max_sam=None, c_ratio=0.02, net='MLPNet', max_round=2, test_round=2, local_epochs=1, local_steps=None, batch_size=32, optimizer='SGD', lr=0.03, momentum=0.9, weight_decay=1e-05, max_grad_norm=100.0, cuda=True, min_samples=1, algo='fedrep', ln_sigma=0.3, none='none', fname='demo-maxround=2-localepoch=1-cratio=0.02.log')
+[ROUNDS]: 2
+[LOSSES]: 2.30157
+[GLO_TACCS]: 0.00000
+[LOCAL_TACCS]: 0.14781 0.37516
+[LOCAL_MF1S]: 0.10125 0.25451
+
+Args(dataset='cifar10', split='map', n_classes=10, n_clients=100, dir_alpha=None, nc_per_client=None, n_max_sam=None, c_ratio=0.02, net='TFCNN', max_round=2, test_round=2, local_epochs=1, local_steps=None, batch_size=64, optimizer='SGD', lr=0.03, momentum=0.9, weight_decay=1e-05, max_grad_norm=100.0, cuda=True, min_samples=1, algo='fedrep', ln_sigma=0.3, none='none', fname='demo-maxround=2-localepoch=1-cratio=0.02.log')
+[ROUNDS]: 2
+[LOSSES]: 1.76960
+[GLO_TACCS]: 0.00000
+[LOCAL_TACCS]: 0.06993 0.32578
+[LOCAL_MF1S]: 0.04756 0.15694
+
+Args(dataset='famnist', input_channel=1, input_size=28, split='map', n_classes=10, n_clients=100, nc_per_client=None, dir_alpha=None, n_max_sam=None, c_ratio=0.02, net='MLPNet', max_round=2, test_round=2, local_epochs=1, local_steps=None, batch_size=32, optimizer='SGD', lr=0.03, momentum=0.9, weight_decay=1e-05, max_grad_norm=100.0, cuda=True, min_samples=1, algo='flda', ln_sigma=0.3, none='none', fname='demo-maxround=2-localepoch=1-cratio=0.02.log')
+[ROUNDS]: 2
+[LOSSES]: 4.60348
+[GLO_TACCS]: 0.09854
+[LOCAL_TACCS]: 0.05495 0.30985
+[LOCAL_MF1S]: 0.01792 0.22587
+
+Args(dataset='cifar10', split='map', n_classes=10, n_clients=100, dir_alpha=None, nc_per_client=None, n_max_sam=None, c_ratio=0.02, net='TFCNN', max_round=2, test_round=2, local_epochs=1, local_steps=None, batch_size=64, optimizer='SGD', lr=0.03, momentum=0.9, weight_decay=1e-05, max_grad_norm=100.0, cuda=True, min_samples=1, algo='flda', ln_sigma=0.3, none='none', fname='demo-maxround=2-localepoch=1-cratio=0.02.log')
+[ROUNDS]: 2
+[LOSSES]: 3.76575
+[GLO_TACCS]: 0.11016
+[LOCAL_TACCS]: 0.17230 0.22264
+[LOCAL_MF1S]: 0.09580 0.13882
+
+Args(dataset='famnist', input_channel=1, input_size=28, split='map', n_classes=10, n_clients=100, nc_per_client=None, dir_alpha=None, n_max_sam=None, c_ratio=0.02, net='MLPNet', max_round=2, test_round=2, local_epochs=1, local_steps=None, batch_size=32, optimizer='SGD', lr=0.03, momentum=0.9, weight_decay=1e-05, max_grad_norm=100.0, cuda=True, min_samples=1, algo='pfedme', ln_sigma=0.3, reg_lamb=0.1, alpha=0.9, k_step=5, beta=1.0, fname='demo-maxround=2-localepoch=1-cratio=0.02.log')
+[ROUNDS]: 2
+[LOSSES]: 2.30207
+[GLO_TACCS]: 0.22207
+[LOCAL_TACCS]: 0.05340 0.26699
+[LOCAL_MF1S]: 0.02650 0.16188
+
+Args(dataset='cifar10', split='map', n_classes=10, n_clients=100, dir_alpha=None, nc_per_client=None, n_max_sam=None, c_ratio=0.02, net='TFCNN', max_round=2, test_round=2, local_epochs=1, local_steps=None, batch_size=64, optimizer='SGD', lr=0.03, momentum=0.9, weight_decay=1e-05, max_grad_norm=100.0, cuda=True, min_samples=1, algo='pfedme', ln_sigma=0.3, reg_lamb=0.1, alpha=0.9, k_step=5, beta=1.0, fname='demo-maxround=2-localepoch=1-cratio=0.02.log')
+[ROUNDS]: 2
+[LOSSES]: 1.78875
+[GLO_TACCS]: 0.16346
+[LOCAL_TACCS]: 0.18179 0.29927
+[LOCAL_MF1S]: 0.09264 0.20908
+
+Args(dataset='famnist', input_channel=1, input_size=28, split='map', n_classes=10, n_clients=100, nc_per_client=None, dir_alpha=None, n_max_sam=None, c_ratio=0.02, net='MLPNet', max_round=2, test_round=2, local_epochs=1, local_steps=None, batch_size=32, optimizer='SGD', lr=0.03, momentum=0.9, weight_decay=1e-05, max_grad_norm=100.0, cuda=True, min_samples=1, algo='perfedavg', ln_sigma=0.3, meta_lr=0.1, fname='demo-maxround=2-localepoch=1-cratio=0.02.log')
+[ROUNDS]: 2
+[LOSSES]: 2.09293
+[GLO_TACCS]: 0.21338
+[LOCAL_TACCS]: 0.18584 0.30671
+[LOCAL_MF1S]: 0.06902 0.16394
+
+Args(dataset='cifar10', split='map', n_classes=10, n_clients=100, dir_alpha=None, nc_per_client=None, n_max_sam=None, c_ratio=0.02, net='TFCNN', max_round=2, test_round=2, local_epochs=1, local_steps=None, batch_size=64, optimizer='SGD', lr=0.03, momentum=0.9, weight_decay=1e-05, max_grad_norm=100.0, cuda=True, min_samples=1, algo='perfedavg', ln_sigma=0.3, meta_lr=0.1, fname='demo-maxround=2-localepoch=1-cratio=0.02.log')
+[ROUNDS]: 2
+[LOSSES]: 19.45407
+[GLO_TACCS]: 0.10041
+[LOCAL_TACCS]: 0.12406 0.12406
+[LOCAL_MF1S]: 0.02530 0.02554
+
+Args(dataset='famnist', input_channel=1, input_size=28, split='map', n_classes=10, n_clients=100, nc_per_client=None, dir_alpha=None, n_max_sam=None, c_ratio=0.02, net='MLPNet', max_round=2, test_round=2, local_epochs=1, local_steps=None, batch_size=32, optimizer='SGD', lr=0.03, momentum=0.9, weight_decay=1e-05, max_grad_norm=100.0, cuda=True, min_samples=1, algo='fedrs', ln_sigma=0.3, alpha=0.9, fname='demo-maxround=2-localepoch=1-cratio=0.02.log')
+[ROUNDS]: 2
+[LOSSES]: 2.30059
+[GLO_TACCS]: 0.10117
+[LOCAL_TACCS]: 0.08944 0.44536
+[LOCAL_MF1S]: 0.06516 0.31704
+
+Args(dataset='cifar10', split='map', n_classes=10, n_clients=100, dir_alpha=None, nc_per_client=None, n_max_sam=None, c_ratio=0.02, net='TFCNN', max_round=2, test_round=2, local_epochs=1, local_steps=None, batch_size=64, optimizer='SGD', lr=0.03, momentum=0.9, weight_decay=1e-05, max_grad_norm=100.0, cuda=True, min_samples=1, algo='fedrs', ln_sigma=0.3, alpha=0.9, fname='demo-maxround=2-localepoch=1-cratio=0.02.log')
+[ROUNDS]: 2
+[LOSSES]: 3.08901
+[GLO_TACCS]: 0.10418
+[LOCAL_TACCS]: 0.17555 0.13989
+[LOCAL_MF1S]: 0.05927 0.06786
+
+Args(dataset='famnist', input_channel=1, input_size=28, split='map', n_classes=10, n_clients=100, nc_per_client=None, dir_alpha=None, n_max_sam=None, c_ratio=0.02, net='MLPNet', max_round=2, test_round=2, local_epochs=1, local_steps=None, batch_size=32, optimizer='SGD', lr=0.03, momentum=0.9, weight_decay=1e-05, max_grad_norm=100.0, cuda=True, min_samples=1, algo='fedproto', ln_sigma=0.3, reg_lamb=0.1, fname='demo-maxround=2-localepoch=1-cratio=0.02.log')
+[ROUNDS]: 2
+[LOSSES]: 2.30188
+[GLO_TACCS]: 0.00000
+[LOCAL_TACCS]: 0.12231 0.23390
+[LOCAL_MF1S]: 0.10603 0.17014
+
+Args(dataset='cifar10', split='map', n_classes=10, n_clients=100, dir_alpha=None, nc_per_client=None, n_max_sam=None, c_ratio=0.02, net='TFCNN', max_round=2, test_round=2, local_epochs=1, local_steps=None, batch_size=64, optimizer='SGD', lr=0.03, momentum=0.9, weight_decay=1e-05, max_grad_norm=100.0, cuda=True, min_samples=1, algo='fedproto', ln_sigma=0.3, reg_lamb=0.1, fname='demo-maxround=2-localepoch=1-cratio=0.02.log')
+[ROUNDS]: 2
+[LOSSES]: 14.38980
+[GLO_TACCS]: 0.00000
+[LOCAL_TACCS]: 0.09016 0.36177
+[LOCAL_MF1S]: 0.04670 0.21207
+
+Args(dataset='famnist', input_channel=1, input_size=28, split='map', n_classes=10, n_clients=100, nc_per_client=None, dir_alpha=None, n_max_sam=None, c_ratio=0.02, net='MLPNet', max_round=2, test_round=2, local_epochs=1, local_steps=None, batch_size=32, optimizer='SGD', lr=0.03, momentum=0.9, weight_decay=1e-05, max_grad_norm=100.0, cuda=True, min_samples=1, algo='ditto', ln_sigma=0.3, reg_lamb=0.1, fname='demo-maxround=2-localepoch=1-cratio=0.02.log')
+[ROUNDS]: 2
+[LOSSES]: 2.30181
+[GLO_TACCS]: 0.18887
+[LOCAL_TACCS]: 0.09574 0.25914
+[LOCAL_MF1S]: 0.02338 0.15035
+
+Args(dataset='cifar10', split='map', n_classes=10, n_clients=100, dir_alpha=None, nc_per_client=None, n_max_sam=None, c_ratio=0.02, net='TFCNN', max_round=2, test_round=2, local_epochs=1, local_steps=None, batch_size=64, optimizer='SGD', lr=0.03, momentum=0.9, weight_decay=1e-05, max_grad_norm=100.0, cuda=True, min_samples=1, algo='ditto', ln_sigma=0.3, reg_lamb=0.1, fname='demo-maxround=2-localepoch=1-cratio=0.02.log')
+[ROUNDS]: 2
+[LOSSES]: 2.54640
+[GLO_TACCS]: 0.10049
+[LOCAL_TACCS]: 0.18452 0.30000
+[LOCAL_MF1S]: 0.07454 0.22784
+
+Args(dataset='famnist', input_channel=1, input_size=28, split='map', n_classes=10, n_clients=100, nc_per_client=None, dir_alpha=None, n_max_sam=None, c_ratio=0.02, net='MLPNet', max_round=2, test_round=2, local_epochs=1, local_steps=None, batch_size=32, optimizer='SGD', lr=0.03, momentum=0.9, weight_decay=1e-05, max_grad_norm=100.0, cuda=True, min_samples=1, algo='fedrod', ln_sigma=0.3, bal_gamma=1.0, fname='demo-maxround=2-localepoch=1-cratio=0.02.log')
+[ROUNDS]: 2
+[LOSSES]: 4.60439
+[GLO_TACCS]: 0.16699
+[LOCAL_TACCS]: 0.06818 0.34091
+[LOCAL_MF1S]: 0.02143 0.27960
+
+Args(dataset='cifar10', split='map', n_classes=10, n_clients=100, dir_alpha=None, nc_per_client=None, n_max_sam=None, c_ratio=0.02, net='TFCNN', max_round=2, test_round=2, local_epochs=1, local_steps=None, batch_size=64, optimizer='SGD', lr=0.03, momentum=0.9, weight_decay=1e-05, max_grad_norm=100.0, cuda=True, min_samples=1, algo='fedrod', ln_sigma=0.3, bal_gamma=1.0, fname='demo-maxround=2-localepoch=1-cratio=0.02.log')
+[ROUNDS]: 2
+[LOSSES]: 4.21232
+[GLO_TACCS]: 0.14262
+[LOCAL_TACCS]: 0.14538 0.20466
+[LOCAL_MF1S]: 0.04690 0.13273
+
+Args(dataset='famnist', input_channel=1, input_size=28, split='map', n_classes=10, n_clients=100, nc_per_client=None, dir_alpha=None, n_max_sam=None, c_ratio=0.02, net='MLPNet', max_round=2, test_round=2, local_epochs=1, local_steps=None, batch_size=32, optimizer='SGD', lr=0.03, momentum=0.9, weight_decay=1e-05, max_grad_norm=100.0, cuda=True, min_samples=1, algo='fedphp', ln_sigma=0.3, reg_way='KD', reg_lamb=0.1, fname='demo-maxround=2-localepoch=1-cratio=0.02.log')
+[ROUNDS]: 2
+[LOSSES]: 2.30223
+[GLO_TACCS]: 0.11016
+[LOCAL_TACCS]: 0.06316 0.42289
+[LOCAL_MF1S]: 0.02943 0.27057
+
+Args(dataset='cifar10', split='map', n_classes=10, n_clients=100, dir_alpha=None, nc_per_client=None, n_max_sam=None, c_ratio=0.02, net='TFCNN', max_round=2, test_round=2, local_epochs=1, local_steps=None, batch_size=64, optimizer='SGD', lr=0.03, momentum=0.9, weight_decay=1e-05, max_grad_norm=100.0, cuda=True, min_samples=1, algo='fedphp', ln_sigma=0.3, reg_way='KD', reg_lamb=0.1, fname='demo-maxround=2-localepoch=1-cratio=0.02.log')
+[ROUNDS]: 2
+[LOSSES]: 2.01028
+[GLO_TACCS]: 0.11951
+[LOCAL_TACCS]: 0.18093 0.37612
+[LOCAL_MF1S]: 0.09931 0.23951
+
+Args(dataset='famnist', input_channel=1, input_size=28, split='map', n_classes=10, n_clients=100, nc_per_client=None, dir_alpha=None, n_max_sam=None, c_ratio=0.02, net='MLPNet', max_round=2, test_round=2, local_epochs=1, local_steps=None, batch_size=32, optimizer='SGD', lr=0.03, momentum=0.9, weight_decay=1e-05, max_grad_norm=100.0, cuda=True, min_samples=1, algo='fedap', ln_sigma=0.3, reg_way='KD', reg_lamb=0.1, alpha=0.5, fname='demo-maxround=2-localepoch=1-cratio=0.02.log')
+[ROUNDS]: 2
+[LOSSES]: 2.30222
+[GLO_TACCS]: 0.21768
+[LOCAL_TACCS]: 0.22739 0.40942
+[LOCAL_MF1S]: 0.09223 0.27061
+
+Args(dataset='cifar10', split='map', n_classes=10, n_clients=100, dir_alpha=None, nc_per_client=None, n_max_sam=None, c_ratio=0.02, net='TFCNN', max_round=2, test_round=2, local_epochs=1, local_steps=None, batch_size=64, optimizer='SGD', lr=0.03, momentum=0.9, weight_decay=1e-05, max_grad_norm=100.0, cuda=True, min_samples=1, algo='fedap', ln_sigma=0.3, reg_way='KD', reg_lamb=0.1, alpha=0.5, fname='demo-maxround=2-localepoch=1-cratio=0.02.log')
+[ROUNDS]: 2
+[LOSSES]: 2.33018
+[GLO_TACCS]: 0.10426
+[LOCAL_TACCS]: 0.08667 0.27649
+[LOCAL_MF1S]: 0.04975 0.15738
+
+Args(dataset='famnist', input_channel=1, input_size=28, split='map', n_classes=10, n_clients=100, nc_per_client=None, dir_alpha=None, n_max_sam=None, c_ratio=0.02, net='MLPNet', max_round=2, test_round=2, local_epochs=1, local_steps=None, batch_size=32, optimizer='SGD', lr=0.03, momentum=0.9, weight_decay=1e-05, max_grad_norm=100.0, cuda=True, min_samples=1, algo='scaffoldap', ln_sigma=0.3, reg_way='KD', reg_lamb=0.1, alpha=0.5, glo_lr=0.5, fname='demo-maxround=2-localepoch=1-cratio=0.02.log')
+[ROUNDS]: 2
+[LOSSES]: 2.30254
+[GLO_TACCS]: 0.09971
+[LOCAL_TACCS]: 0.06761 0.06761
+[LOCAL_MF1S]: 0.01324 0.01317
+
+Args(dataset='cifar10', split='map', n_classes=10, n_clients=100, dir_alpha=None, nc_per_client=None, n_max_sam=None, c_ratio=0.02, net='TFCNN', max_round=2, test_round=2, local_epochs=1, local_steps=None, batch_size=64, optimizer='SGD', lr=0.03, momentum=0.9, weight_decay=1e-05, max_grad_norm=100.0, cuda=True, min_samples=1, algo='scaffoldap', ln_sigma=0.3, reg_way='KD', reg_lamb=0.1, alpha=0.5, glo_lr=0.5, fname='demo-maxround=2-localepoch=1-cratio=0.02.log')
+[ROUNDS]: 2
+[LOSSES]: 1.86745
+[GLO_TACCS]: 0.09971
+[LOCAL_TACCS]: 0.07155 0.44852
+[LOCAL_MF1S]: 0.03470 0.33940
+
+Args(dataset='famnist', input_channel=1, input_size=28, split='map', n_classes=10, n_clients=100, nc_per_client=None, dir_alpha=None, n_max_sam=None, c_ratio=0.02, net='MLPNet', max_round=2, test_round=2, local_epochs=1, local_steps=None, batch_size=32, optimizer='SGD', lr=0.03, momentum=0.9, weight_decay=1e-05, max_grad_norm=100.0, cuda=True, min_samples=1, algo='scaffoldrs', ln_sigma=0.3, alpha=0.1, glo_lr=0.5, fname='demo-maxround=2-localepoch=1-cratio=0.02.log')
+[ROUNDS]: 2
+[LOSSES]: 2.30253
+[GLO_TACCS]: 0.10059
+[LOCAL_TACCS]: 0.38296 0.38296
+[LOCAL_MF1S]: 0.15310 0.15223
+
+Args(dataset='cifar10', split='map', n_classes=10, n_clients=100, dir_alpha=None, nc_per_client=None, n_max_sam=None, c_ratio=0.02, net='TFCNN', max_round=2, test_round=2, local_epochs=1, local_steps=None, batch_size=64, optimizer='SGD', lr=0.03, momentum=0.9, weight_decay=1e-05, max_grad_norm=100.0, cuda=True, min_samples=1, algo='scaffoldrs', ln_sigma=0.3, alpha=0.1, glo_lr=0.5, fname='demo-maxround=2-localepoch=1-cratio=0.02.log')
+[ROUNDS]: 2
+[LOSSES]: 2.29166
+[GLO_TACCS]: 0.10107
+[LOCAL_TACCS]: 0.09449 0.17559
+[LOCAL_MF1S]: 0.03992 0.08055
+
+Args(dataset='famnist', input_channel=1, input_size=28, split='map', n_classes=10, n_clients=100, nc_per_client=None, dir_alpha=None, n_max_sam=None, c_ratio=0.02, net='MLPNet', max_round=2, test_round=2, local_epochs=1, local_steps=None, batch_size=32, optimizer='SGD', lr=0.03, momentum=0.9, weight_decay=1e-05, max_grad_norm=100.0, cuda=True, min_samples=1, algo='dittors', ln_sigma=0.3, alpha=0.1, reg_lamb=0.1, fname='demo-maxround=2-localepoch=1-cratio=0.02.log')
+[ROUNDS]: 2
+[LOSSES]: 2.30207
+[GLO_TACCS]: 0.20010
+[LOCAL_TACCS]: 0.10973 0.23439
+[LOCAL_MF1S]: 0.07800 0.15077
+
+Args(dataset='cifar10', split='map', n_classes=10, n_clients=100, dir_alpha=None, nc_per_client=None, n_max_sam=None, c_ratio=0.02, net='TFCNN', max_round=2, test_round=2, local_epochs=1, local_steps=None, batch_size=64, optimizer='SGD', lr=0.03, momentum=0.9, weight_decay=1e-05, max_grad_norm=100.0, cuda=True, min_samples=1, algo='dittors', ln_sigma=0.3, alpha=0.1, reg_lamb=0.1, fname='demo-maxround=2-localepoch=1-cratio=0.02.log')
+[ROUNDS]: 2
+[LOSSES]: 2.46239
+[GLO_TACCS]: 0.14170
+[LOCAL_TACCS]: 0.13576 0.11426
+[LOCAL_MF1S]: 0.05279 0.05161
+
